@@ -1,12 +1,12 @@
 {
   "id": "pmtrpg-overclaw",
   "title": "PMTRPG OverCLAW",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "14",
     "verified": "14",
-  "manifest": "https://github.com/Reversewizard/PMTTRPG-OVERCLAW/releases/latest/download/module.json",
-  "download": "https://github.com/Reversewizard/PMTTRPG-OVERCLAW/releases/download/1.0.0/module.zip"
+    "manifest": "https://github.com/Reversewizard/PMTTRPG-OVERCLAW/releases/latest/download/module.json",
+    "download": "https://github.com/Reversewizard/PMTTRPG-OVERCLAW/releases/download/0.1.1/module.zip"
   },
   "flags": {
     "canUpload": true
@@ -41,6 +41,18 @@
       "label": "OverCLAW Journals",
       "path": "packs/overclaw-journals",
       "type": "JournalEntry",
+      "system": "projectmoonttrpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "overclaw-actors",
+      "label": "OverCLAW Actors",
+      "path": "packs/overclaw-actors",
+      "type": "Actor",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
