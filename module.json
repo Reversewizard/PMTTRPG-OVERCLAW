@@ -2,11 +2,11 @@
   "id": "pmtrpg-overclaw",
   "title": "PMTRPG OverCLAW",
   "version": "1.0.1",
+  "manifest": "https://raw.githubusercontent.com/Reversewizard/PMTTRPG-OVERCLAW/main/module.json",
+  "download": "https://github.com/Reversewizard/PMTTRPG-OVERCLAW/releases/latest/download/module.zip",
   "compatibility": {
     "minimum": "14",
     "verified": "14",
-  "manifest": "https://github.com/Reversewizard/PMTTRPG-OVERCLAW/blob/main/module.json",
-  "download": "https://github.com/Reversewizard/PMTTRPG-OVERCLAW/releases/latest/download/module.zip"
   },
   "flags": {
     "canUpload": true
