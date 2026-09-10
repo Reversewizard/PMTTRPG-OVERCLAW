@@ -5,7 +5,7 @@
   "compatibility": {
     "minimum": "14",
     "verified": "14",
-  "manifest": "https://github.com/Reversewizard/PMTTRPG-OVERCLAW/releases/latest/download/module.json",
+  "manifest": "https://github.com/Reversewizard/PMTTRPG-OVERCLAW/blob/main/module.json",
   "download": "https://github.com/Reversewizard/PMTTRPG-OVERCLAW/releases/latest/download/module.zip"
   },
   "flags": {
