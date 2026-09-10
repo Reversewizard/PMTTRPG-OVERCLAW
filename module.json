@@ -1,42 +1,72 @@
 {
-  "id": "pm-system-utilities",
-  "title": "PM System Utilities",
-  "version": "1.0.0",
+  "id": "pmtrpg-overclaw",
+  "title": "PMTRPG OverCLAW",
+  "version": "1.0.1.1",
+  "manifest": "https://raw.githubusercontent.com/Reversewizard/PMTTRPG-OVERCLAW/main/module.json",
+  "download": "https://github.com/Reversewizard/PMTTRPG-OVERCLAW/releases/latest/download/pmtrpg-overclaw.zip",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+    "minimum": "14",
+    "verified": "14"
   },
-  "relationships": {
-    "systems": [
-      {
-        "id": "custom-system-builder",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
+  "flags": {
+    "canUpload": true
   },
   "packs": [
     {
-      "name": "misc-enemies",
-      "label": "Misc Enemies",
-      "path": "packs/misc-enemies",
-      "type": "Actor",
-      "system": "custom-system-builder",
+      "name": "overclaw-statuses",
+      "label": "OverCLAW Statuses",
+      "path": "packs/overclaw-statuses",
+      "type": "Item",
+      "system": "projectmoonttrpg",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
-      "name": "items",
-      "label": "Equipment",
-      "path": "packs/items",
+      "name": "overclaw-effects",
+      "label": "OverCLAW Effects",
+      "path": "packs/overclaw-effects",
       "type": "Item",
-      "system": "custom-system-builder",
+      "system": "projectmoonttrpg",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
+    },
+    {
+      "name": "overclaw-journals",
+      "label": "OverCLAW Journals",
+      "path": "packs/overclaw-journals",
+      "type": "JournalEntry",
+      "system": "projectmoonttrpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "overclaw-actors",
+      "label": "OverCLAW Actors",
+      "path": "packs/overclaw-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "projectmoonttrpg",
+      "flags": {}
     }
-  ]
+  ],
+  "authors": [
+    {
+      "name": "Ai",
+      "discord": "reversewizard",
+      "flags": {}
+    }
+  ],
+  "description": ""
 }
