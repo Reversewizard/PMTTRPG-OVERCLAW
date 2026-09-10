@@ -6,7 +6,7 @@
   "download": "https://github.com/Reversewizard/PMTTRPG-OVERCLAW/releases/latest/download/module.zip",
   "compatibility": {
     "minimum": "14",
-    "verified": "14",
+    "verified": "14"
   },
   "flags": {
     "canUpload": true
